@@ -1,0 +1,15 @@
+.header {
+  background-color: #ffd966;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.bag {
+  width: 210px;
+}
+.bagContainer {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  margin: auto;
+}

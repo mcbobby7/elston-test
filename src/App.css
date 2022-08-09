@@ -1,38 +1,102 @@
 .App {
   text-align: center;
+  background-color: white;
+  width: 400px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.detailsBox {
+  background-color: #ffd966;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details {
+  background-color: white;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all {
+  padding: 20px;
+}
+.titleName {
+  color: #777f39;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 50px;
+  font-weight: 600;
+}
+.titleDesc {
+  color: black;
+  font-size: 25px;
+  text-align: left;
+  font-weight: 600;
+}
+.lev {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+.gram {
+  color: #706f7d;
+  font-size: 20px;
+}
+.amount {
+  background-color: #f2f8f7;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 23px;
+}
+.line {
+  background-color: #f2f8f7;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+}
+.cartBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cart {
+  width: 45%;
+}
+.cartButton {
+  background-color: #00866e;
+  width: 45%;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
   color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.singleDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.value {
+  margin-right: 20px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.itemDetails {
+  width: 100%;
+  margin-top: 30px;
+}
+.aboutTitle {
+  color: black;
+  font-size: 25px;
+  font-weight: 700px;
+  text-align: left;
+  margin-bottom: 10px;
 }

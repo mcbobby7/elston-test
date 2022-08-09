@@ -1,0 +1,44 @@
+.container {
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  width: 50%;
+}
+
+.text {
+  display: inline;
+  width: 100%;
+  text-align: left;
+}
+
+.read-or-hide {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.read {
+  color: #00866e;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.sign {
+  font-size: 28px;
+  color: #00866e;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.main {
+  text-align: left;
+  font-size: 14px;
+  color: #706f7d;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
